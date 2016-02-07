@@ -1,0 +1,41 @@
+
+
+  /*
+  
+  Geo-lari Symbol icon
+  Author: Rmaini Jugheli rjugeli@outlook.com Georgia */
+@font-face {
+    font-family: 'geo-lari';
+    src:    url('fonts/geo-lari.eot?w60hbb');
+    src:    url('fonts/geo-lari.eot?w60hbb#iefix') format('embedded-opentype'),
+        url('fonts/geo-lari.ttf?w60hbb') format('truetype'),
+        url('fonts/geo-lari.woff?w60hbb') format('woff'),
+        url('fonts/geo-lari.svg?w60hbb#geo-lari') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'geo-lari' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-geo-lari .path1:before {
+    content: "\e1800";
+    color: rgb(255, 255, 255);
+}
+.icon-geo-lari .path2:before {
+    content: "\e1801";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+
